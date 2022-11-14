@@ -1,0 +1,25 @@
+nav {
+	background-color: #26292e;
+	width: 100%;
+	height: calc(9%);
+	display: flex;
+	margin: -10px;
+	justify-content: space-around;
+	z-index: 99999;
+	position: fixed; 
+	
+}
+
+nav > a {
+	cursor: pointer;
+  	font-size: 1.2rem;
+	color: white;
+	text-decoration: none;
+	transition: all .2s;
+	margin: 2rem;
+    padding: .8rem;
+}
+
+nav > a:hover {
+	color:#42f593;
+}

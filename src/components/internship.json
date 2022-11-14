@@ -1,0 +1,11 @@
+[{
+	"Company": "Amazon",
+	"Role": "Software Development Intern",
+	"Location": "Sunnyvale, CA",
+	"Time": "06/2022 -- 08/2022",
+	"Description": [
+		"Designed, implemented, tested and integrated the “datashare deletion” workflow end-to-end.",
+		"Created step functions and a state machine with multiple lambdas, most of which can be reused for other workflows.",
+		"Designed and implemented the resume workflow to recover from previous failures."
+	]
+}]

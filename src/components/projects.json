@@ -1,0 +1,34 @@
+[
+	{
+		"name":"Compensation Analysis in Tech",
+		"Language": "Python, Numpy, Pandas, Matplotlib",
+		"description": [
+			"Collected compensation packages in tech areas. The info includes multiple dimensional info about the base, equity bonus and candidate’s background.",
+			"Used Numpy and Pandas to do data cleaning.",
+			"Analyzed compensation’s correlation with multiple factors, including education, work experience, job location, position level and so on.",
+			"Used Matplotlib to visualize the results."
+		]
+	},
+
+	{
+		"name": "Distributed Data Processing System",
+		"Language": "Python, Flask, Docker",
+		"description": [
+			"Designed and implemented a distributed key-value store that is partition-tolerant, available, and causally consistent.",
+			"Implemented administrative APIs, such as key count, shard count, replica count and view change.",
+			"Implemented consistent hashing to minimize the cost of view change which involves adding or removing nodes.",
+			"Implemented key-value operations such as adding key-value pairs, updating keys with new values and removing key-value pairs.",
+			"Optimized performance, refactored code structure, fixed bugs and tested against load balancing and number of replicas."
+		]
+	},
+
+	{
+		"name": "SVM on Artificial dataset",
+		"Language": "Python, Scikit-learn",
+		"description": [
+			"Generated artificial dataset that includes 2 sets of 2-D Gaussian distribution with different means and variances.",
+			"Leant SVMs with a variety of parameter settings based on the datasets.",
+			"Rendered results and decision boundaries and compared them with different kernels, number of support vectors and accuracy."
+		]
+	}
+]
