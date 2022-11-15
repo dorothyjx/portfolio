@@ -36,6 +36,15 @@
 	border: 2px solid #42f593;
 }
 
+
+@media screen and (max-width: 760px) {
+	.edu-wrap {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
 .edu-left {
 	width: 50%;
 	display: flex;

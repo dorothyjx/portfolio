@@ -22,8 +22,21 @@ p {
 }
 
 
-@media(max-width: 1020px){
+@media screen and (max-width: 1020px){
 	.section-default{
 	   padding: 3rem 3rem;
 	}
+}
+
+@media screen and (max-width: 760px){
+   	body {
+		font-size: 50%;
+  	}
+}
+  
+  @media screen and (max-width: 400px){
+	body {
+		font-size: 40%;
+	}
+    
 }

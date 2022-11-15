@@ -1,5 +1,17 @@
 [
 	{
+		"name": "Image Management Tool",
+		"Language": "Java, JavaFX, Image IO",
+		"description": [
+			"Designed and implemented a GUI based application to convert image format.",
+			"Users can upload images from the local file system to the app and the thumbnails are shown.",
+			"Users can convert uploaded images into chosen formats.",
+			"Users can download the converted images to customized paths in the local file system."
+		]
+		
+	},
+
+	{
 		"name":"Compensation Analysis in Tech",
 		"Language": "Python, Numpy, Pandas, Matplotlib",
 		"description": [

@@ -19,9 +19,30 @@
 	width: 70%;
 	height: auto;
 	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
+	flex-direction: row;
+	justify-content: space-between;
 	outline: none;
 	border: 2px solid #42f593;
 	padding: 2rem;
+	margin: 1rem;
+}
+
+.intern-card {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.intern-img {
+	width: 20%;
+	height: auto;
+	position: relative;
+	background-color: white;
+}
+
+@media screen and (max-width: 760px) {
+	.intern-img {
+		display: none;
+	}
 }

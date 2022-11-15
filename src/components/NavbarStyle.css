@@ -1,7 +1,7 @@
 nav {
 	background-color: #26292e;
 	width: 100%;
-	height: calc(9%);
+	height: 80px;
 	display: flex;
 	margin: -10px;
 	justify-content: space-around;
@@ -22,4 +22,19 @@ nav > a {
 
 nav > a:hover {
 	color:#42f593;
+}
+
+@media screen and (max-width: 760px) {
+	nav {
+		width: 10%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		position: fixed;
+	}
+	nav > a {
+		font-size: 0.8rem;
+		margin: 0;
+	}
 }

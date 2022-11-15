@@ -5,9 +5,9 @@ import self from "../imgs/self.jpg"
 
 const About = () => {
 	return <>
-		<div className="about">
+		<div id="about">
 			<div className="photo-outline">
-				<img src={self} />
+				<img src={self} className="self-image"/>
 			</div>
 			
 			<h1>Xuan Ji (Dorothy)</h1>
