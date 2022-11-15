@@ -34,7 +34,7 @@
 	align-items: center;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 900px) {
 	.skill-wrap {
 		display: flex;
 		flex-direction: column;

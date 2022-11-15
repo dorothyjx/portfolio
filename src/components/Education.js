@@ -21,18 +21,16 @@ const Education = () => {
         	{
 				edu.map((e, index) => (
 					// <div key={index} className={`individualAnimal ${darkMode}`}>
-					<div key={index}>
-						<div className="edu-card">
-							<div className="edu-left">
-								<img src={images[index]} className="edu-logo" />
-								<h3>{e.School}</h3>
-							</div>
-							<ul className="edu-right">
-								<li>{"Degree: " + e.Degree}</li>
-								<li>{"Major: " + e.Major}</li>
-								<li>{"Time: " + e.Time}</li>
-							</ul>
+					<div key={index} className="edu-card">
+						<div className="edu-left">
+							<img src={images[index]} className="edu-logo" />
+							<h3>{e.School}</h3>
 						</div>
+						<ul className="edu-right">
+							<li>{"Degree: " + e.Degree}</li>
+							<li>{"Major: " + e.Major}</li>
+							<li>{"Time: " + e.Time}</li>
+						</ul>
 					</div>
 				))
         	}

@@ -41,7 +41,7 @@
 	background-color: white;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 900px) {
 	.intern-img {
 		display: none;
 	}

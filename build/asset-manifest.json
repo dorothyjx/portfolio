@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.565f5d0f.css",
+    "main.js": "/static/js/main.e5dac46e.js",
+    "static/media/self.jpg": "/static/media/self.ece8c64ae697e1d5dba7.jpg",
+    "static/media/FSU Seal.png": "/static/media/FSU Seal.28db7e9b0211cd520a33.png",
+    "static/media/NEU-logo.png": "/static/media/NEU-logo.3d2b71e672f00d0d57df.png",
+    "static/media/image_tool.png": "/static/media/image_tool.f3296574c63f2d187674.png",
+    "static/media/salary.png": "/static/media/salary.d1e14e2d0d75354c918d.png",
+    "static/media/ml.png": "/static/media/ml.694817e976c87c409cf1.png",
+    "static/media/distributed.png": "/static/media/distributed.4af0402bdf55ef146a69.png",
+    "index.html": "/index.html",
+    "main.565f5d0f.css.map": "/static/css/main.565f5d0f.css.map",
+    "main.e5dac46e.js.map": "/static/js/main.e5dac46e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.565f5d0f.css",
+    "static/js/main.e5dac46e.js"
+  ]
+}

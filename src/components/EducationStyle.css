@@ -23,13 +23,12 @@
 }
 
 .edu-card {
-	width: 35rem;
+	margin: .5rem;
+	width: 90%;
 	height: auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	/* padding-top: 1rem;
-	padding-bottom: 1rem; */
 	padding-left: 1rem; 
 	margin-bottom: .5rem;
 	outline: none;
@@ -37,7 +36,7 @@
 }
 
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 900px) {
 	.edu-wrap {
 		display: flex;
 		flex-direction: column;

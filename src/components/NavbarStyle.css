@@ -24,7 +24,7 @@ nav > a:hover {
 	color:#42f593;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 900px) {
 	nav {
 		width: 10%;
 		height: auto;
