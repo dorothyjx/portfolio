@@ -1,14 +1,14 @@
-import React, {useState} from "react";
+import React from "react";
 import {createRoot} from "react-dom/client"
 import "./style.css"
 
 import {
+	Navbar,
 	About,
     Education,
 	Skills,
 	Internship,
 	Projects,
-	Navbar,
 	Contact,
 } from "./components/index.js"
 

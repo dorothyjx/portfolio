@@ -1,40 +1,121 @@
-nav {
+.nav-warp {
+	
+	width: 100%;
+  	max-width: 1440px;
+  	overflow-x: hidden;
+  	overflow-y: auto;
+ 	margin: 0 auto;
+}
+
+.navbar{
 	background-color: #26292e;
 	width: 100%;
 	height: 80px;
-	display: flex;
 	margin: -10px;
+	display: flex;
+	flex-direction: row;
 	justify-content: space-around;
 	z-index: 99999;
 	position: fixed; 
-	
+	align-items: center;
 }
 
-nav > a {
-	cursor: pointer;
-  	font-size: 1.2rem;
+.navbar .links{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
 	color: white;
-	text-decoration: none;
-	transition: all .2s;
-	margin: 2rem;
+	cursor: pointer;
+}
+
+.navbar .links li{
+	font-size: 1.2rem;
+	margin: 1.5rem;
     padding: .8rem;
 }
 
-nav > a:hover {
+.navbar .links li > a {
+	color: white;
+}
+
+.navbar .links li > a:hover {
 	color:#42f593;
 }
 
+.navbar > li {
+  	font-size: 1.2rem;
+	text-decoration: none;
+	transition: all .2s;
+}
+
+.navbar .toggle-icon{
+	display: none
+}
+
 @media screen and (max-width: 900px) {
-	nav {
-		width: 10%;
-		height: auto;
+	.navbar{
+		position: relative;
+		transition: 0.5s all ease-in-out;
+	}
+
+	.navbar.expanded{
+		height: 100vh;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.navbar.expanded .links {
+		position: fixed;
+		top: 38px;
+		left: 0;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
-		justify-content: flex-start;
-		position: fixed;
+		justify-content: center;
+		align-items: center;
+		opacity: 1;
 	}
-	nav > a {
-		font-size: 0.8rem;
-		margin: 0;
+
+	.navbar.expanded .links li{
+		margin: 15px 0;
+	}
+
+	.navbar.expanded .links li > a{
+		font-size: 1rem;
+	}
+
+	.navbar .toggle-icon {
+		display: block;
+		color: white;
+		position: fixed;
+		top: 20px;
+		right: 20px;
+	}
+
+	.navbar .toggle-icon:hover {
+		color:#42f593;
+	}
+
+	.navbar .links{
+		background-color: #2E3239;
+		position: absolute;
+		top: -30rem;
+		left: 0;
+		width: 100%;
+		height:auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		opacity: 0.1;
+		transition: 0.5s all ease-in-out;
+	}
+	
+	.navbar .links li{
+		margin: 1rem;
+	}
+
+	.navbar .links li > a {
+		font-size: 1rem;
 	}
 }
