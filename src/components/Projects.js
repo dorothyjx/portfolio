@@ -20,7 +20,7 @@ const Projects = () => {
 						<div key={index} className="proj-card">
 							<div className="proj-wrap">
 								<h3>{project.name}</h3>
-								<small>{project.Language}</small>
+								<p>{project.Language}</p>
 								<ul>
 									{project.description.map((a) => <li>{a}</li>)}
 								</ul>
