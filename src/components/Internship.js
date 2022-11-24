@@ -16,7 +16,7 @@ const Internship = () => {
 					<div className="intern-container">
 						<div className="intern-card">
 							<h2>{i.Role}</h2>
-							<h4>{i.Company + " | " + i.Location + " | " + i.Time}</h4>
+							<h3>{i.Company + " | " + i.Location + " | " + i.Time}</h3>
 							<ul>
 								{i.Description.map(a => <li>{a}</li>)}
 							</ul>
