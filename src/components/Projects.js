@@ -5,11 +5,13 @@ import image_tool from "../imgs/image_tool.png"
 import ml from "../imgs/ml.png"
 import salary from "../imgs/salary.png"
 import distributed from "../imgs/distributed.png"
+import house from "../imgs/house.png"
+import portfolio from "../imgs/portfolio.png"
 
 
 const Projects = () => {
 
-	const images = [image_tool, salary, distributed, ml]
+	const images = [house, portfolio, image_tool, salary, distributed, ml]
 
     return <>
 		<div id="projects">

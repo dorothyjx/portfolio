@@ -1,5 +1,25 @@
 [
 	{
+		"name": "House Price Prediction",
+		"Language": "Python, Numpy, Pandas, Matplotlib, Scikit-leanr",
+		"description": [
+			"Analyzed price correlation with multiple features, including total bedrooms, number of garage cars, total living space and so on.",
+			"Used Matplotlib to visualize the correlations.",
+			"Applied linear regression and Random forest regressor to predict the price",
+			"Compared pridition results of two machine learning models"
+		]
+	},
+
+	{
+		"name": "Portfolio",
+		"Language": "JavaScript, React, EmailJS",
+		"description": [
+			"Created personal portfolio using JS and react",
+			"Applied the emailJS for contacting"
+		]
+	},
+
+	{
 		"name": "Image Management Tool",
 		"Language": "Java, JavaFX, Image IO",
 		"description": [

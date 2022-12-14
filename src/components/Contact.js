@@ -18,12 +18,12 @@ const Contact = () => {
 			  	console.log(error.text);
 		});
 		e.target.reset()
+		alert("Email send! Thank You!")
 	};
 
 	return <>
 		<div id="contact">
 			<h1>Contact</h1>
-			<small>(Only for display)</small>
 			<form className="contact" ref={form} onSubmit={sendEmail}>
 				<input type="text" name="name" placeholder="Name" required/>
     			<label className="label" htmlFor="name">Name</label>

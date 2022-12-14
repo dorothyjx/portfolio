@@ -41,6 +41,7 @@
 
 @media screen and (max-width: 900px) {
 	.skill-wrap {
+		width: 70%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -48,7 +49,7 @@
 	}
 	.skill-card {
 		margin: 1rem;
-		width: 100%;
+		width: 90%;
 		height: 300px;
 	}
 }

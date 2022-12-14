@@ -1,5 +1,4 @@
 .nav-warp {
-	
 	width: 100%;
   	max-width: 1440px;
   	overflow-x: hidden;
@@ -61,12 +60,12 @@
 	.navbar.expanded{
 		height: 100vh;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 	}
 
 	.navbar.expanded .links {
 		position: fixed;
-		top: 38px;
+		top: -15px;
 		left: 0;
 		width: 100%;
 		display: flex;
@@ -84,22 +83,10 @@
 		font-size: 1rem;
 	}
 
-	.navbar .toggle-icon {
-		display: block;
-		color: white;
-		position: fixed;
-		top: 20px;
-		right: 20px;
-	}
-
-	.navbar .toggle-icon:hover {
-		color:#42f593;
-	}
-
 	.navbar .links{
 		background-color: #2E3239;
 		position: absolute;
-		top: -30rem;
+		top: -32rem;
 		left: 0;
 		width: 100%;
 		height:auto;
@@ -117,5 +104,18 @@
 
 	.navbar .links li > a {
 		font-size: 1rem;
+	}
+
+	.navbar .toggle-icon {
+		display: block;
+		color: white;
+		position: fixed;
+		top: 20px;
+		right: 20px;
+		z-index: 999;
+	}
+
+	.navbar .toggle-icon:hover {
+		color:#42f593;
 	}
 }
